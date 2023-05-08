@@ -20,7 +20,7 @@ public class P {
 		boolean yes = list.contains(email);
 		Map<String, String> map = new HashMap<String, String>();
 		map.put("name", "kishore");
-		
+
 		System.out.println(yes);
 		for (String string : list) {
 			if (string.equals(email)) {
